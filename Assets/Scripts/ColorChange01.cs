@@ -33,15 +33,8 @@ public class ColorChange01 : MonoBehaviour
         {
             contadorFrames = 0;
 
-            int indice = Random.Range(0, 3); // 0 = R, 1 = G, 2 = B
-            float nuevoValor = Random.value;
-
-            switch (indice)
-            {
-                case 0: colorActual.r = nuevoValor; break;
-                case 1: colorActual.g = nuevoValor; break;
-                case 2: colorActual.b = nuevoValor; break;
-            }
+            // Genera un color completamente nuevo con componentes r,g,b aleatorias
+            colorActual = new Color(Random.value, Random.value, Random.value);
 
             // Aplica el nuevo color
             if (objetoRenderer != null)
