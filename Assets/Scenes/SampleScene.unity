@@ -226,12 +226,12 @@ GameObject:
   - component: {fileID: 226980268}
   - component: {fileID: 226980267}
   m_Layer: 0
-  m_Name: Cube-DirectionalMovement
+  m_Name: Cube-08-DirectionalMovement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &226980267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,7 +330,7 @@ Transform:
   m_GameObject: {fileID: 226980266}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.28, y: 0, z: 3.04}
+  m_LocalPosition: {x: 0.98, y: 0, z: 4.13}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -608,12 +608,12 @@ GameObject:
   - component: {fileID: 464777062}
   - component: {fileID: 464777061}
   m_Layer: 0
-  m_Name: Cube-VelocityCube
+  m_Name: Cube-06-VelocityCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &464777061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -734,7 +734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &490434358
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ Transform:
   m_GameObject: {fileID: 490434357}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41, y: 0.57, z: 3.52}
+  m_LocalPosition: {x: 4.74, y: 0.57, z: 3.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -835,12 +835,12 @@ GameObject:
   - component: {fileID: 622651971}
   - component: {fileID: 622651970}
   m_Layer: 0
-  m_Name: Empty-Move3Objects
+  m_Name: Empty-05-Move3Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &622651970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,12 +890,12 @@ GameObject:
   - component: {fileID: 705551365}
   - component: {fileID: 705551366}
   m_Layer: 0
-  m_Name: Sphere-ShowPosition
+  m_Name: Sphere-020304-VectorMagnitude-ShowPosition-ObjectsDistance
   m_TagString: sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &705551360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1041,7 +1041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &815690989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1125,7 +1125,7 @@ Transform:
   m_GameObject: {fileID: 815690988}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.53, y: 0.59, z: 3.66}
+  m_LocalPosition: {x: 1.23, y: 0.59, z: 3.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1199,7 +1199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &900443830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1298,14 +1298,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900443829}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.4124641, y: 1.02, z: 1.4980793}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 2.3678992, y: 1.02, z: 12.553474}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1251036542}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &909671467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,12 +1317,12 @@ GameObject:
   - component: {fileID: 909671469}
   - component: {fileID: 909671468}
   m_Layer: 0
-  m_Name: Empty-FireH
+  m_Name: Empty-07-FireH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &909671468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1471,12 +1471,12 @@ GameObject:
   - component: {fileID: 1801072900}
   - component: {fileID: 1801072901}
   m_Layer: 0
-  m_Name: Empty-InputMove-FollowSphere-FaceTowards
+  m_Name: Empty-0910-InputMove-FollowSphere-FaceTowards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1801072898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801072897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f3ace64a07399c4cb867ae87ce2a54c, type: 3}
   m_Name: 
@@ -1530,7 +1530,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801072897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a3e2efdd560c8e4da699f34e0583c8a, type: 3}
   m_Name: 
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 1836461735}
   - component: {fileID: 1836461739}
   m_Layer: 0
-  m_Name: Cube-ChangeColor
+  m_Name: Cube-01-ChangeColor
   m_TagString: cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1677,7 +1677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &1944262495
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1784,7 +1784,7 @@ SceneRoots:
   - {fileID: 464777065}
   - {fileID: 909671469}
   - {fileID: 226980271}
+  - {fileID: 1801072899}
   - {fileID: 815690992}
   - {fileID: 490434361}
-  - {fileID: 1801072899}
   - {fileID: 900443834}

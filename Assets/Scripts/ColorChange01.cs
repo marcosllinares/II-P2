@@ -16,10 +16,8 @@ public class ColorChange01 : MonoBehaviour
             Random.value,
             Random.value
         );
-
         // Obtiene el componente Renderer del objeto
         objetoRenderer = GetComponent<Renderer>();
-
         // Asigna el color inicial
         if (objetoRenderer != null)
             objetoRenderer.material.color = colorActual;
@@ -32,10 +30,8 @@ public class ColorChange01 : MonoBehaviour
         if (contadorFrames >= framesDeEspera)
         {
             contadorFrames = 0;
-
             // Genera un color completamente nuevo con componentes r,g,b aleatorias
             colorActual = new Color(Random.value, Random.value, Random.value);
-
             // Aplica el nuevo color
             if (objetoRenderer != null)
                 objetoRenderer.material.color = colorActual;
