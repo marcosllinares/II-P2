@@ -25,7 +25,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 
 ![ChangeColor](https://i.imgur.com/sSs7uMt.gif)
 
-```
+```csharp
     public int framesDeEspera = 120;
     private Color colorActual;
     private Renderer objetoRenderer;
@@ -69,7 +69,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 
 ![](https://i.imgur.com/aJicVfx.png)
 
-```
+```csharp
     public Vector3 vectorA;
     public Vector3 vectorB;
 
@@ -108,7 +108,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 
 ![](https://i.imgur.com/z1GmXqr.png)
 
-```
+```csharp
     Vector3 posicionActual;
     
     void Start()
@@ -127,7 +127,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 ![](https://i.imgur.com/jRUPjw1.png)
 ![](https://i.imgur.com/QnG1186.png)
 
-```
+```csharp
     GameObject esfera;
     GameObject cubo;
     GameObject cilindro;
@@ -158,7 +158,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 
 ![](https://i.imgur.com/iWxjAyu.png)
 
-```
+```csharp
     public Transform objeto1;
     public Transform objeto2;
     public Transform objeto3;
@@ -198,7 +198,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 ![](https://i.imgur.com/E29Xbs7.png)
 
 
-```
+```csharp
     public float velocidad = 5f;
 
     void Update()
@@ -241,7 +241,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 
 ![](https://i.imgur.com/EZk4uJX.png)
 
-```
+```csharp
     void Update()
     {
         // Detectar si se pulsa la tecla asignada al eje "Disparo"
@@ -255,7 +255,7 @@ Trabajo realizado por Marcos Llinares Montes con alu0100972443
 
 ![DirectionalMovement](https://imgur.com/oKaOPZD.gif)
 
-```
+```csharp
     public Vector3 moveDirection = new Vector3(1, 0, 0);
     public float speed = 2f;                 // (> 1 por requisito inicial)
     public Space referenceSpace = Space.World;
@@ -325,7 +325,7 @@ Si rotas el cubo, como ahora aplica a sus propios ejes locales la dirección del
 ![](https://i.imgur.com/Zt7wA5E.png)
 
 
-```
+```csharp
     public Transform cubo;
     public Transform esfera;
     public float speedCubo = 5f;
@@ -373,7 +373,7 @@ Si rotas el cubo, como ahora aplica a sus propios ejes locales la dirección del
 ![FollowSphere](https://imgur.com/5IZ3C4k.gif)
 
 
-```
+```csharp
     public Transform cubo;
     public Transform esfera;
     public float speed = 3f;
@@ -397,7 +397,7 @@ Si rotas el cubo, como ahora aplica a sus propios ejes locales la dirección del
 
 ![](https://imgur.com/bPqguSd.gif)
 
-```
+```csharp
     public Transform cubo;
     public Transform esfera;
 
@@ -418,7 +418,7 @@ Si rotas el cubo, como ahora aplica a sus propios ejes locales la dirección del
 
 ![](https://imgur.com/HllyXrX.gif)
 
-```
+```csharp
     public float velocidadGiro = 500f;
     public float velocidadAvance = 2f;
 
